@@ -1,6 +1,6 @@
 import userModel from "../models/userModel.js";
 import jwt from "jsonwebtoken"     // For Authentication
-import bcrypt from "bcrypt"        // For Encryption of Password
+import bcrypt from "bcryptjs"        // For Encryption of Password
 import validator from "validator"
 
 
